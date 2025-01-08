@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 20px;
+  white-space: wrap;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  padding: 10px 8px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: azure;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.buttonStyle {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5;
+}
